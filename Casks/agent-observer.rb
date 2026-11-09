@@ -1,9 +1,9 @@
 cask "agent-observer" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.16.0"
-  sha256 arm:   "625a5e684fed6ea90b15300920ce0a2c7926f4d8e6f1fd4689449b6e8ce83a4e",
-         intel: "e2e2919e000386057c221d10438a1bf07a18e617c36586efa1acd9c914cb6bc6"
+  version "0.17.0"
+  sha256 arm:   "0f345829da10d5512b7215f3f279dc62c5e6618c7ee1ecae94fe1b87266293a2",
+         intel: "84a86c05dbebdb71c228ffe8b80d5ebfa954c84cd6a9b0a1ba5eaed5c7309dc6"
 
   url "https://github.com/jcalhinho/agent-observer/releases/download/v#{version}/Agent-Observer_#{version}_macos-#{arch}.dmg"
   name "Agent Observer"
